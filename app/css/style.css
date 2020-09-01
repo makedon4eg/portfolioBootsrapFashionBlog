@@ -1,0 +1,83 @@
+body {
+  font-family: PT Serif;
+  background-color: #F2F2F2;
+}
+header {
+  padding: 34px 80px;
+  padding-bottom: 30px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-bottom: 4px;
+}
+.header-menu {
+  width: 368px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 17px;
+  padding-bottom: 3px;
+}
+.header-menu a {
+  font-size: 14px;
+  color: #171717;
+}
+.home a {
+  font-size: 14px;
+  color: #C9A96E;
+  margin-right: 5px;
+}
+.hero {
+  height: 700px;
+  background: url("../img/Your image here.jpg"), no-repeat;
+}
+.hero .container {
+  padding-left: 0;
+}
+.hero .col-md-6 {
+  padding-left: 9px;
+}
+.features {
+  margin-top: 487px;
+}
+.features p {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.features>p {
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.features h1 {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #FFFFFF;
+  }
+.features span {
+  color: #B4B4B4;
+}
+.features-comments p {
+  display: inline;
+}
+.features-comments p:first-child {
+  margin-right: 8px;
+}
+.features-comments p:last-child {
+  margin-left: 10px;
+}
